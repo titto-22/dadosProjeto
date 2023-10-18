@@ -67,16 +67,7 @@ nav a {
   font-family: 'Rubik', sans-serif;
 }
 
-/* Estilos para links topo */
-a {
-  color: #000;
-  text-decoration: none;
 
-}
-
-a:hover {
-  text-decoration:dotted;
-}
 
 /* Estilos para o cabeçalho */
 .container-cabeçalho {
@@ -287,8 +278,28 @@ a:hover {
   border: 2px solid #333;
 }
 
+/*estilo contatos*/
+
 .container-contatos{
   text-align: center;
   background-color: #c1dcf3;
   padding-bottom: 50px;
+}
+
+/* Estilos para links*/
+.container-contatos a {
+  color: blue;
+  text-decoration: none;
+  border: 2px solid #000;
+  border-radius:5px ;
+  background-color: #fff;
+  padding: 5px;
+  box-shadow: inset;
+  
+ 
+
+}
+
+a:hover {
+  text-decoration:dotted;
 }
