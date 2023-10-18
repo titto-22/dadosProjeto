@@ -1,0 +1,146 @@
+/* Estilos para o corpo da página */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  max-width: 1200px;
+}
+
+/* Estilos para a navegação */
+
+
+.container-topo {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  top: 0px;
+  width: 100%;
+  height: 60px;
+  background-color: #3773d9;
+  padding: 1px;
+
+}
+
+.container-topo h1 {
+  position: absolute;
+  left: 70px;
+}
+
+nav {
+ 
+ 
+  padding: 5px 1px;
+  display: flex;
+  align-items: center;
+
+}
+
+.IMG-top {
+  width: 80px;
+  position:absolute;
+  left: 0px;
+}
+
+nav a {
+  color: #000;
+  text-decoration: none;
+  margin-right: 10px;
+  position: relative;
+  left: 220px;
+  background-color: #c1dcf31e;
+  padding: 2px;
+  border-radius: 10%;
+}
+
+
+/* Estilos para o cabeçalho */
+.container-cabeçalho {
+  background-image: url(Imagens/fundo4.png);
+  background-size: cover;
+  background-attachment: fixed;
+    background-position: center;
+  color: #fff;
+  text-align: left;
+  padding: 100px 0;
+  max-width: 1200px;
+  position: relative;
+}
+
+.container-cabeçalho h2 {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  font-size: 2em;
+  color: #000;
+
+}
+
+.container-cabeçalho p {
+  position: absolute;
+  top: 120px;
+  left: 40px;
+  font-size: 1.2em;
+  max-width: 500px;
+  margin: 0 auto;
+  color: #000;
+}
+
+.back {
+  position: relative;
+  top: 0px;
+  left: 650px;
+  width: 35%;
+  border-radius: 10px;
+
+}
+
+/* Estilos para outras seções (sobre, serviços, portfólio, contatos) */
+.container-sobre,
+.container-servicos,
+.container-portifolio,
+.container-contatos {
+  padding: 50px 0;
+
+}
+
+/* Estilos para as imagens dos projetos no portfólio */
+
+.projeto-a1 img {
+  max-width: 20%;
+  border: 2px solid #333;
+
+}
+
+.projeto-a2 img {
+  max-width: 20%;
+  border: 2px solid #333;
+  position: relative;
+  left: 79%;
+}
+
+.projeto-a3 img {
+  max-width: 20%;
+  border: 2px solid #333;
+}
+
+.projeto-a1 p,
+.projeto-a3 p {
+  position: relative;
+  left: 90%;
+}
+
+/* Estilos para links */
+a {
+  color: #007BFF;
+  text-decoration: none;
+
+}
+
+a:hover {
+  text-decoration: underline;
+}
