@@ -1,15 +1,24 @@
 /* Estilos para o corpo da página */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 body {
   font-family: 'Montserrat', sans-serif;
+  
   background-color: #fff;
   margin: 0;
   padding: 0;
   max-width: 1200px;
 }
+body p{
+  font-family: 'Rubik', sans-serif;
+}
 
+body h2{
+  font-family: 'Montserrat', sans-serif;
+}
 /* Estilos para a navegação */
 
 
@@ -55,6 +64,7 @@ nav a {
   background-color: #c1dcf31e;
   padding: 2px;
   border-radius: 10%;
+  font-family: 'Rubik', sans-serif;
 }
 
 /* Estilos para links topo */
@@ -73,12 +83,13 @@ a:hover {
   background-image: url(Imagens/fundo4.png);
   background-size: cover;
   background-attachment: fixed;
-    background-position: center;
+  background-position: center;
   color: #fff;
   text-align: left;
   padding: 100px 0;
   max-width: 1200px;
   position: relative;
+  display: flex;
 }
 
 .container-cabeçalho h2 {
@@ -87,12 +98,13 @@ a:hover {
   left: 40px;
   font-size: 2em;
   color: #000;
+  max-width: 50%;
 
 }
 
 .container-cabeçalho p {
   position: absolute;
-  top: 120px;
+  bottom: 80px;
   left: 40px;
   font-size: 1.2em;
   max-width: 500px;
@@ -162,28 +174,121 @@ a:hover {
   background-color: #c1dcf3;
 }
 
-/* Estilos para as imagens dos projetos no portfólio */
 
-.projeto-a1 img {
+/*serviços*/
+.container-servicos{
+  position: relative;
+  display: flex;
+}
+
+.servico-a1{
+  position: relative;
+  top: 5px;
+  left: 40px;
+  max-width: 30%;
+  text-align: center;
+}
+
+.servico-a2{
+  position: relative;
+  top: 5px;
+  left: 80px;
   max-width: 20%;
-  border: 2px solid #333;
+  text-align: center;
+  padding-right: 2%;
+  padding-left: 2%;
+}
 
+.servico-a3{
+  position: relative;
+  top: 5px;
+  right: -120px;
+  max-width: 30%;
+  text-align: center;
+}
+
+.container-servicos h2{
+  font-size: 1.2em;
+}
+/* Estilos portfólio */
+
+.container-portifolio{
+  position: relative;
+  display: block;
+
+  
+}
+.projeto-a1{
+  position: relative;
+}
+.projeto-a1 h2{
+  position: absolute;
+  top: 0px;
+  left: 40px;
+}
+
+.projeto-a1 p{
+  position: absolute;
+  top: 50px;
+  left: 40px;
+  max-width: 60%;
+  text-align: justify;
+}
+.projeto-a1 img {
+  position: absolute;
+  top: 20px;
+  right: 80px;
+  max-width: 25%;
+  border: 2px solid #333;
+}
+
+.projeto-a2{
+  position: relative;
+  box-sizing: unset;
+}
+
+.projeto-a2 h2{
+  position: absolute;
+  right: 120px;
+  top: 280px;
+}
+
+.projeto-a2 p{
+  position: absolute;
+  top: 330px;
+  right: 80px;
+  max-width: 60%;
 }
 
 .projeto-a2 img {
-  max-width: 20%;
-  border: 2px solid #333;
   position: relative;
-  left: 0;
+  left: 40px;
+  top: 200px;
+  max-width: 25%;
+  border: 2px solid #333;
+  
+}
+
+.projeto-a3{
+  position: relative;
+  padding-bottom: 450px;
+}
+.projeto-a3 p{
+ position: absolute;
+ left: 40px;
+ bottom: 150px;
 }
 
 .projeto-a3 img {
-  max-width: 20%;
+  position: absolute;
+  bottom: 0px;
+  right: 80px;
+  max-width: 25%;
   border: 2px solid #333;
 }
 
-.projeto-a1 p,
-.projeto-a3 p {
-  position: relative;
-  left: 0;
+.container-contatos{
+  text-align: center;
+  background-color: #c1dcf3;
+  padding-bottom: 50px;
 }
