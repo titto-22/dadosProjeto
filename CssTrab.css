@@ -57,6 +57,16 @@ nav a {
   border-radius: 10%;
 }
 
+/* Estilos para links topo */
+a {
+  color: #000;
+  text-decoration: none;
+
+}
+
+a:hover {
+  text-decoration:dotted;
+}
 
 /* Estilos para o cabeçalho */
 .container-cabeçalho {
@@ -89,23 +99,67 @@ nav a {
   margin: 0 auto;
   color: #000;
 }
-
 .back {
   position: relative;
   top: 0px;
   left: 650px;
-  width: 35%;
+  max-width: 35%;
   border-radius: 10px;
 
 }
 
-/* Estilos para outras seções (sobre, serviços, portfólio, contatos) */
-.container-sobre,
-.container-servicos,
-.container-portifolio,
-.container-contatos {
-  padding: 50px 0;
 
+/* quem somos */
+
+.container-sobre {
+  position: relative;
+  display: flex;
+  padding-bottom: 630px;
+}
+
+.container-sobre h2{
+  position: absolute;
+  top: 0px;
+  left: 40px;
+  background-color: #c1dcf3;
+  padding: 2px;
+  border-radius: 10%;
+}
+
+.container-sobre p{
+  position: absolute;
+  top: 60px;
+  left: 40px;
+  width: 40%;
+  text-align: justify;
+}
+
+.e1 img{
+  position: absolute;
+  top: 260px;
+  left: 80px;
+  width: 35%;
+  border-radius: 5%;
+}
+
+.e1 p{
+  position: absolute;
+  top: 60px;
+  left: 580px;
+}
+
+.e2 img{
+  position: absolute;
+  width: 35%;
+  top: 260px;
+  right: 80px;
+  border-radius: 5%;
+}
+
+.container-servicos{
+  width: auto;
+  position: relative;
+  background-color: #c1dcf3;
 }
 
 /* Estilos para as imagens dos projetos no portfólio */
@@ -120,7 +174,7 @@ nav a {
   max-width: 20%;
   border: 2px solid #333;
   position: relative;
-  left: 79%;
+  left: 0;
 }
 
 .projeto-a3 img {
@@ -131,16 +185,5 @@ nav a {
 .projeto-a1 p,
 .projeto-a3 p {
   position: relative;
-  left: 90%;
-}
-
-/* Estilos para links */
-a {
-  color: #007BFF;
-  text-decoration: none;
-
-}
-
-a:hover {
-  text-decoration: underline;
+  left: 0;
 }
