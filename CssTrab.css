@@ -10,7 +10,6 @@ body {
   background-color: #fff;
   margin: 0;
   padding: 0;
-  max-width: 1200px;
 }
 body p{
   font-family: 'Rubik', sans-serif;
@@ -78,7 +77,6 @@ nav a {
   color: #fff;
   text-align: left;
   padding: 100px 0;
-  max-width: 1200px;
   position: relative;
   display: flex; 
 }
