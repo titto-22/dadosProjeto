@@ -262,17 +262,24 @@ nav a {
   position: relative;
   margin-bottom: 500PX;
 }
+
+.projeto-a3 h2{
+  position: absolute;
+  left: 40px;
+  top: 200px;
+}
 .projeto-a3 p{
  position: absolute;
  left: 40px;
- top: 200px;
+ top: 240px;
+ max-width: 50%;
 }
 
 .projeto-a3 img {
   position: absolute;
-  top: 170px;
-  right: 80px;
-  max-width: 25%;
+  top: -80px;
+  right: -500px;
+  max-width: 50%;
   border: 2px solid #333;
 }
 
@@ -280,6 +287,7 @@ nav a {
 
 .container-contatos{
   text-align: center;
+  width: auto;
   background-color: #c1dcf3;
   padding-bottom: 50px;
 }
