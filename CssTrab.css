@@ -103,7 +103,7 @@ nav a {
 .back {
   position: relative;
   top: 0px;
-  left: 650px;
+  left: 720px;
   max-width: 35%;
   border-radius: 10px;
 
@@ -293,9 +293,6 @@ nav a {
   background-color: #fff;
   padding: 5px;
   box-shadow: inset;
-  
- 
-
 }
 
 a:hover {
