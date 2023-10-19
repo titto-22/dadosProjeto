@@ -115,7 +115,7 @@ nav a {
 .container-sobre {
   position: relative;
   display: flex;
-  padding-bottom: 630px;
+  margin-bottom: 700px;
 }
 
 .container-sobre h2{
@@ -137,7 +137,7 @@ nav a {
 
 .e1 img{
   position: absolute;
-  top: 260px;
+  top: 220px;
   left: 80px;
   width: 35%;
   border-radius: 5%;
@@ -146,13 +146,13 @@ nav a {
 .e1 p{
   position: absolute;
   top: 60px;
-  left: 580px;
+  left: 680px;
 }
 
 .e2 img{
   position: absolute;
   width: 35%;
-  top: 260px;
+  top: 220px;
   right: 80px;
   border-radius: 5%;
 }
@@ -238,13 +238,13 @@ nav a {
 
 .projeto-a2 h2{
   position: absolute;
-  right: 120px;
-  top: 280px;
+  right: 240px;
+  top: 340px;
 }
 
 .projeto-a2 p{
   position: absolute;
-  top: 330px;
+  top: 380px;
   right: 80px;
   max-width: 60%;
 }
@@ -260,17 +260,17 @@ nav a {
 
 .projeto-a3{
   position: relative;
-  padding-bottom: 450px;
+  margin-bottom: 500PX;
 }
 .projeto-a3 p{
  position: absolute;
  left: 40px;
- bottom: 150px;
+ top: 200px;
 }
 
 .projeto-a3 img {
   position: absolute;
-  bottom: 0px;
+  top: 170px;
   right: 80px;
   max-width: 25%;
   border: 2px solid #333;
