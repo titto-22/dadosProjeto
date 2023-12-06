@@ -9,47 +9,70 @@
 </head>
 <body>
     <div class="container-topo">
-        <nav>
-            <img class="IMG-top" src="Imagens/Logo_da_Empresa__2_-removebg-preview (1).png" alt="logo">
+        <div class="container-logo">
+            <div class="container-logo-imagem">
+                 <img class="IMG-top" src="Imagens/Logo_da_Empresa__2_-removebg-preview (1).png" alt="logo">
+            </div>
+         <div>
             <h1>ALIVIT PRO</h1>
-            
+         </div>
+        </div>
+    
+        <div class="container-links">
                <a class="links" href="#cabecalho">CABEÇALHO</a>
                 <a class="links" href="#sobreNos">SOBRE NÓS</a>
                 <a class="links" href="#servicos">SERVIÇOS</a>      <!-- ciando navegação entre as seções do site -->
                 <a class="links" href="#portfolio">PORTFÓLIO</a>
                 <a class="links" href="#contatos">CONTATOS</a>
-            
-        </nav>
+        </div>        
     </div>
 
     <section id="cabecalho" class="container-cabeçalho">
-        <h2>ALIVIT desenvolvedora dos bancos de dados mais usados pelos designer</h2>
-        <p>Revolucione a forma como sua empresa gerencia projetos com nosso sistema de banco de dados personalizado. Atribuímos IDs únicos a cada projeto, proporcionando clareza nas funções da equipe, 
+        <div class="container-banner">
+         <div class="container-texto">
+            <h2>ALIVIT desenvolvedora dos bancos de dados mais usados pelos designer</h2>
+            <p>Revolucione a forma como sua empresa gerencia projetos com nosso sistema de banco de dados personalizado. Atribuímos IDs únicos a cada projeto, proporcionando clareza nas funções da equipe, 
             e asseguramos acesso seguro com autenticação de dois fatores, priorizando a confidencialidade. Nosso sistema de busca intuitivo agiliza a localização de informações vitais. 
             Capacite sua empresa com eficiência e organização no gerenciamento de projetos, 
             garantindo que as informações estejam disponíveis para quem precisa, enquanto mantemos um controle de acesso restrito com base nas necessidades individuais.</p> 
+         </div>
+          <div class="container-imagem-banner">
             <img class="back" src="Imagens/imagem-para-inicio.png" alt="divulgação">     <!-- colocar uma imagem de fundo nessa seção no css-->
+        </div>
+          </div>
     </section>
     
 
     <section id="sobreNos" class="container-sobre">
-        <div class="texto-sobre-nos">
+        <!--<div class="texto-sobre-nos">
+            <h2>    Quem somos</h2>
+        </div>-->
+        <div class="card">
+         <div class="container-card-info">
             <h2>    Quem somos</h2>
             <P> 
 
                 A ALVIT PRO Banco de Dados é uma empresa especializada em desenvolver soluções robustas e seguras para gerenciamento de projetos, 
                 especialmente voltadas para profissionais de design e empresas de médio porte. 
-                Atuamos no setor de tecnologia da informação, focando na criação de sistemas de banco de dados altamente eficientes e personalizados. .</P>
+                Atuamos no setor de tecnologia da informação, 
+                focando na criação de sistemas de banco de dados altamente
+                eficientes e personalizados. .</P>
+         </div>
+          <div class="container-card-imagem">
+            <img src="Imagens/equipe.png" alt="equipe">
+          </div>       
+                
         </div>
-
-        <div class="equipe">
-            <div class="e1">
-                <img src="Imagens/equipe.png" alt="equipe">
+        
+        <div class="card">
+            <div class="container-card-info">
+                <br>
                 <p>Nossa equipe é composta por especialistas apaixonados por desvendar os segredos ocultos nos dados.
-                     Com vasta experiência e conhecimento profundo das últimas tecnologias, estamos comprometidos em fornecer soluções que vão além das expectativas.
-                      Somos movidos pela paixão por dados e pela busca constante da excelência.</p>
+                Com vasta experiência e conhecimento profundo das últimas tecnologias, estamos comprometidos em fornecer soluções que vão além das expectativas.
+                Somos movidos pela paixão por dados e pela 
+                busca constante da excelência.</p>
             </div>
-            <div class="e2">
+         <div class="container-card-imagem">
                 <img src="Imagens/equipe2.png" alt="equipe">
             </div>
         </div>
@@ -57,29 +80,32 @@
 
 
     <section id="servicos" class="container-servicos">
-        <div class="servico-a1">
-            <h2>Perfis de Funcionários
-            </h2>
-            <P>Cada funcionário tem um ID exclusivo, nome, CPF e cargo.
-                Especificação clara das funções de cada membro da equipe em projetos específicos.
-                
-                </P>
+        <div class="servico">
+            <div class="servico-info">
+             <h2>Perfis de Funcionários </h2>
+             <P>Cada funcionário tem um ID exclusivo, nome, CPF e cargo.
+                Especificação clara das funções de cada membro da equipe 
+                em projetos específicos.</P>
+            </div>
         </div>
 
-        <div class="servico-a2">
-            <h2>Gerenciamento de Projetos
-            </h2>
-            <P>Cada projeto é atribuído a um ID exclusivo.
-                Registro do nome do projeto e da data de entrega.
-                </P>
+        <div class="servico">
+            <div class="servico-info">
+                <h2>Gerenciamento de Projetos
+                </h2>
+                <P>Cada projeto é atribuído a um ID exclusivo.
+                Registro do nome do projeto e da data de entrega.</P>
+            </div>
         </div>
 
-        <div class="servico-a3">
-            <h2>Pesquisa Eficiente
-            </h2>
-            <P>
+        <div class="servico">
+            <div class="servico-info">
+                <h2>Pesquisa Eficiente</h2>
+                <P>
                 Sistema de busca intuitivo que permite aos usuários encontrar rapidamente as informações necessárias.
-                Facilidade para localizar detalhes específicos de projetos ou membros da equipe.</P>
+                Facilidade para localizar detalhes específicos de projetos 
+                ou membros da equipe.</P>
+            </div>
         </div>
         
         <!--<img src="" alt="interface dos produtos">-->
@@ -87,50 +113,98 @@
 
 
     <section id="portfolio" class="container-portifolio">
-        <div class="projeto-a1">
+        <div class="projeto">
+            <div class="projeto-texto">
             
-            <h2>Gerenciamento de Projetos Integrado</h2>
-            <p> Este projeto tem como objetivo criar um sistema de acompanhamento de tarefas
+                <h2>Gerenciamento de Projetos Integrado</h2>
+                <p> Este projeto tem como objetivo criar um sistema de acompanhamento de tarefas
                  em tempo real para uma empresa, permitindo que os funcionários registrem suas
                   atividades e projetos em um banco de dados centralizado.
                    Cada membro da equipe terá um ID único associado a seu perfil,
                     incluindo nome, CPF, cargo e função no projeto.</p> 
+            </div>
+            <div class="projeto-imagem">
             <img src="Imagens/Interface port 1.png" alt="interface dos produtos">
+        </div>
             
         </div> 
 
-        <div class="projeto-a2">
-            <h2>Acompanhamento de Tarefas em Tempo Real</h2>
-            <p>Este projeto visa implementar um sistema de banco de dados para uma empresa
+        <div class="projeto">
+            <div class="projeto-texto">
+                <h2>Acompanhamento de Tarefas em Tempo Real</h2>
+                <p>Este projeto visa implementar um sistema de banco de dados para uma empresa
                 que permite o gerenciamento eficiente
                 de todas as atividades de seus funcionários e projetos.
                  Cada funcionário terá um ID exclusivo associado ao seu nome,
                  CPF e cargo. Além disso, o sistema atribui uma função específica
-                  a cada membro da equipe em projetos individuais.</p> 
-            <img src="Imagens/Projeto Principal.png" alt="interface dos produtos">
-            
+                  a cada membro da equipe em projetos individuais.</p>
+            </div> 
+                <div class="projeto-imagem">  
+                    <img src="Imagens/Projeto Principal.png" alt="interface dos produtos">
+                </div> 
         </div> 
 
-        <div class="projeto-a3">
-            <h2>O seu Closet Virtual</h2>
-            <p>Aqui você consegue verificar todas as suas roupas, montar looks, e salvar seus 
+        <div class="projeto">
+            <div class="projeto-texto">
+                <h2>O seu Closet Virtual</h2>
+                <p>Aqui você consegue verificar todas as suas roupas, montar looks, e salvar seus 
                 itens favoritos. Conseguindo também comprar roupas pela toda a internet. Com seu login
                 você consegue abrir e todo os dispositivos, tendo suas configurações salvas, juntamente com 
                 os seus itens.
-            <img src="Imagens/Port 2.png" alt="interface dos produtos">
+            </div>
+            <div class="projeto-imagem">   
+                <img src="Imagens/Port 2.png" alt="interface dos produtos">
+            </div> 
              
         </div> 
 
     </section>
 
+    <div id="contatos" class="container-rodape">
+        <div class="rodape-imagem">
+          <img src="Imagens/Logo_da_Empresa__2_-removebg-preview (1).png" />
+        </div>
+        <div class="rodape-contato">
+          <div>
+            <h3>ENDEREÇO</h3>
+            <p>Av Neymar Junior, 1500</p>
+            <p>joão de barro, BH - 23145-678</p>
+          </div>
+          <div>
+            <h3>CONTATO</h3>
+            <p>alivit@suportdata.com.br</p>
+            <p>Tel: (19) 99989-9221</p>
+          </div>
+          <div>
+            <h3>HORÁRIOS</h3>
+            <p>todos os dias</p>
+            <p>10:00 - 22:00</p>
+          </div>
+        </div>
+        <div class="rodape-descricao">
+          <div>
+            <img src="Imagens/instagram.png">
+            <img src="Imagens/whatsapp.png" />
+          </div>
+          <div>
+            <p>&copy Alivitpro Database</p>
+          </div>
+          <a href="#cabecalho"></a>
+        </div>
+      </div>
 
-    <section id="contatos" class="container-contatos">
+
+
+
+
+
+    <!--<section id="contatos" class="container-contatos">
         <h2><br/n>Fale connosco</h2>
         </div><p>Telefone & Whatsapp: (19) 99989-9221</p></div>
         </div><p>E-mail: contato@suportdata.com.br</p></div>
-        </div><p>Endereço: Av Neymar Junior, 1500 - joão de barro - Belo Horizonte</p></div>
+        </div><p>Endereço: - joão de barro - Belo Horizonte</p></div>
         <div><br/n><a href=""> Começe Agora </a></div>
 
-    </section>
+    </section> -->
 </body>
 </html>
