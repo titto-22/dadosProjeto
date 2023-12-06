@@ -15,5 +15,6 @@
             "database": "banco_taxi",
             "askForPassword": true
         }
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }
