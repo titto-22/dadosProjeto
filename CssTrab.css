@@ -179,7 +179,7 @@ border-radius: 4px;
 
 .container-servicos {
   max-width: 1024px;
-  margin: 0 auto;
+  margin: 50px auto;
   padding: 40px 0px;
   border-radius: 8px;
   display: flex;
