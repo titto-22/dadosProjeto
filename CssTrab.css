@@ -131,6 +131,9 @@ border-radius: 10px;
   padding: 2px;
   border-radius: 10%;
   text-align: center;
+  width:200px ;
+  padding: auto;
+  margin: auto;
   
 }
 
@@ -143,10 +146,15 @@ border-radius: 10px;
   justify-content: space-evenly;
   flex-wrap: wrap;
   gap: 20px;
+  flex-direction: column;
 
 }
-.container-sobre h2 {
-padding: auto;
+
+.doiscard {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .card {
@@ -155,7 +163,7 @@ border-radius: 4px;
 }
 
 .container-card-imagem {
-  height: 300px;
+  max-height: 300px;
   padding: 20px 20px;
   
 }
@@ -322,4 +330,10 @@ border-radius: 4px;
 
 a:hover {
   text-decoration:dotted;
+}
+
+@media only screen and (max-width:480px) {
+  .card:last-of-type{
+    margin-top: 100px;
+  }
 }
