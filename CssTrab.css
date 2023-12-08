@@ -112,7 +112,7 @@ body h2{
 
 .container-imagem-banner {
   flex: 1 1 468px;
-  padding: 90PX 90PX;
+  padding: 40PX 40PX;
   
 }
 
@@ -229,7 +229,7 @@ border-radius: 4px;
 
 .projeto-imagem {
   flex: 1 1 468px;
-  padding: 100PX 100PX;
+  padding: 40PX 40PX;
 
   
 }
