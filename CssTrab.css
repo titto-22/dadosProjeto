@@ -112,12 +112,13 @@ body h2{
 
 .container-imagem-banner {
   flex: 1 1 468px;
+  padding: 90PX 90PX;
   
 }
 
 .container-imagem-banner img {
-width: 80%;
-height: 80%;
+width: 100%;
+height: 100%;
 object-fit: cover;
 border-radius: 10px;
 
@@ -227,97 +228,21 @@ border-radius: 4px;
 }
 
 .projeto-imagem {
-  flex: 1 1 68px;
+  flex: 1 1 468px;
+  padding: 100PX 100PX;
+
+  
 }
 
 .projeto-imagem img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-/*
-.container-portifolio{
-  position: relative;
-  display: block;
-
-  
-}
-.projeto-a1{
-  position: relative;
-}
-.projeto-a1 h2{
-  position: absolute;
-  top: 0px;
-  left: 40px;
-}
-
-.projeto-a1 p{
-  position: absolute;
-  top: 50px;
-  left: 40px;
-  max-width: 60%;
-  text-align: justify;
-}
-.projeto-a1 img {
-  position: absolute;
-  top: 20px;
-  right: 80px;
-  max-width: 25%;
   border: 2px solid #333;
+  border-radius: 5px;
+
 }
 
-.projeto-a2{
-  position: relative;
-  box-sizing: unset;
-}
-
-.projeto-a2 h2{
-  position: absolute;
-  right: 240px;
-  top: 340px;
-}
-
-.projeto-a2 p{
-  position: absolute;
-  top: 380px;
-  right: 80px;
-  max-width: 60%;
-}
-
-.projeto-a2 img {
-  position: relative;
-  left: 40px;
-  top: 200px;
-  max-width: 25%;
-  border: 2px solid #333;
-  
-}
-
-.projeto-a3{
-  position: relative;
-  margin-bottom: 500PX;
-}
-
-.projeto-a3 h2{
-  position: absolute;
-  left: 40px;
-  top: 200px;
-}
-.projeto-a3 p{
- position: absolute;
- left: 40px;
- top: 240px;
- max-width: 50%;
-}
-
-.projeto-a3 img {
-  position: absolute;
-  top: -80px;
-  right: -500px;
-  max-width: 50%;
-  border: 2px solid #333;
-}
-*/
 /*estilo contatos*/
 
 
