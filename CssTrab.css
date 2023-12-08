@@ -167,7 +167,7 @@ border-radius: 4px;
 }
 
 .container-card-info {
-  padding: 10px;
+  padding: 20px;
   height: 250px;
   display: flex;
   flex-direction: column;
