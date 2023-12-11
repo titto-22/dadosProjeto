@@ -338,3 +338,74 @@ a:hover {
     margin-top: 100px;
   }
 }
+
+
+/*Você pode conferir uma sugestão de CSS utilizado na estilização do exemplo prático*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header
+{
+  width: 100%;
+  height: 55px;
+  padding: 20px;
+  box-sizing: border-box;
+  background: #3773d9;
+  color: #f8f8f8;
+  font-size: 16px;
+}
+
+footer
+{
+  width: 100%;
+  height: 55px;
+  position: sticky;
+  bottom: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  background: #c1dcf3;
+  color: #000;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 430px;
+  margin: 30px auto;
+  height: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+textarea {
+  height: 120px;
+  margin: 30px 0 25px 0;
+  padding: 10px;
+  font-size: 18px;
+}
+
+button {
+  background: #3773d9;
+  border: none;
+  height: 32px;
+  font-size: 16px;
+  color: #fff;
+}
+
+p {
+  margin: 20px 0 0 0;
+  line-height: 30px;
+}
+
+h1 {
+  color: #3773d9;
+}
+
