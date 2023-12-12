@@ -25,13 +25,21 @@ body h2{
 /* Estilos para a navegação */
 
 .container-topo {
-  background-color:#3773d9;
-  padding: 35px 50px;
+  background-color: #3773d9;
+  padding: 0px 130px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   gap: 20px;
+  position: fixed;
+  top: 2%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  width: 70%; /* Defina a largura desejada */
+  max-width: 70%; /* Defina a largura máxima desejada */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 
 .container-logo {
   max-width: 310px;
@@ -79,7 +87,7 @@ body h2{
   background-attachment: fixed;
   background-position: center;
   background-color: #fff;
-  padding: 50px 0;
+  padding: 150px 0;
 }
 
 .container-banner {
@@ -93,7 +101,6 @@ body h2{
   color: #000;
   padding: 10px 20px;
   flex: 1 1 300px;
-  
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -401,12 +408,12 @@ button {
   color: #fff;
 }
 
-p {
+.forms p {
   margin: 20px 0 0 0;
   line-height: 30px;
 }
 
-h1 {
+.forms h1 {
   color: #3773d9;
 }
 
