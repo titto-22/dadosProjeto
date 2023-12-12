@@ -33,6 +33,7 @@ body h2{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  cursor: pointer;
   
 }
 
@@ -50,6 +51,7 @@ body h2{
 .container-links {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .container-links a {
@@ -65,20 +67,20 @@ body h2{
 
 @media only screen and (max-width: 768px) {
   .container-topo {
-    padding: 10px; 
+    padding: 10px; /* Ajuste de preenchimento para dispositivos menores */
   }
 
   .container-links {
-    display: none; 
+    justify-content: center; /* Centraliza os links em dispositivos menores */
+    width: 100%; /* Ocupa a largura total */
+  }
+
+  .container-links a {
+    width: auto; /* Define a largura automática para que os links ocupem apenas o espaço necessário */
   }
 
   .container-logo {
-    justify-content: center; 
-    text-align: center; 
-  }
-
-  .container-logo img {
-    margin-bottom: 5px; 
+    display: none; /* Oculta a logo em dispositivos menores */
   }
 }
 .container-logo-imagem {
