@@ -401,11 +401,11 @@ form {
 
 textarea {
   height: 120px;
-  margin: 15px 0; /* Reduz a margem inferior para um visual mais compacto */
+  margin: 15px 0; 
   padding: 10px;
   font-size: 18px;
-  border: 1px solid #ccc; /* Adiciona uma borda sutil ao textarea */
-  border-radius: 8px; /* Deixa as bordas do textarea mais arredondadas */
+  border: 1px solid #ccc; 
+  border-radius: 8px; 
 } 
 
 button {
@@ -426,11 +426,11 @@ button {
 .forms p {
   margin: 15px 0;
   line-height: 1.5;
-  text-align: center; /* Centraliza o texto */
+  text-align: center; 
 }
 
 .forms h1 {
   color: #3773d9;
-  text-align: center; /* Centraliza o texto */
+  text-align: center;
 }
 
