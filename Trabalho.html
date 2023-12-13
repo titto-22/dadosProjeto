@@ -201,8 +201,10 @@
                 envie pra gente!</p>
        
                 <form action="LINK.html">
-                    <textarea name="sugestao"></textarea>
-                    <button type="submit">Enviar sugestão</button>
+                    <form id="formSugestao">
+                        <textarea name="sugestao" onfocus="limparTexto()">Escreva sua sugestão aqui</textarea>
+                        <button type="button" onclick="enviarSugestao()">Enviar sugestão</button>
+                      </form>
                 </form>
             </main>
             
@@ -213,17 +215,40 @@
         &copy Alivitpro Database
     </footer>  
 
-       
+    <script>
+  function limparTexto() {
+    var textarea = document.querySelector('textarea[name="sugestao"]');
+    if (textarea.value === 'Escreva sua sugestão aqui') {
+      textarea.value = '';
+      textarea.style.color = '#000';
+      textarea.style.fontStyle = 'normal';
+    }
+  }
 
+  function enviarSugestao() {
+    var textarea = document.querySelector('textarea[name="sugestao"]');
+    var sugestao = textarea.value.trim();
 
+    if (sugestao !== '') {
+      var sugestoesAntigas = localStorage.getItem('sugestoes') || '[]';
+      var sugestoesArray = JSON.parse(sugestoesAntigas);
 
-    <!--<section id="contatos" class="container-contatos">
-        <h2><br/n>Fale connosco</h2>
-        </div><p>Telefone & Whatsapp: (19) 99989-9221</p></div>
-        </div><p>E-mail: contato@suportdata.com.br</p></div>
-        </div><p>Endereço: - joão de barro - Belo Horizonte</p></div>
-        <div><br/n><a href=""> Começe Agora </a></div>
+      sugestoesArray.push(sugestao);
 
-    </section> -->
+      localStorage.setItem('sugestoes', JSON.stringify(sugestoesArray));
+
+      textarea.value = '';
+      limparTexto();
+
+      window.location.href = 'link.html';
+    } else {
+      alert('Por favor, escreva uma sugestão antes de enviar.');
+    }
+  }
+</script>
+
+      
+    
 </body>
 </html>
+

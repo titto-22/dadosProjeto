@@ -99,7 +99,7 @@ body h2{
 /* Estilos para o cabeçalho */
 
 .container-cabeçalho {
-  background-image: url(Imagens/fundo4.png);
+  background-image: url(Imagens/fundo5.png);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -404,6 +404,7 @@ textarea {
   font-size: 18px;
   border: 1px solid #ccc; 
   border-radius: 8px; 
+  color: #000; 
 } 
 
 button {
@@ -431,4 +432,3 @@ button {
   color: #3773d9;
   text-align: center;
 }
-
