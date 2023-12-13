@@ -358,17 +358,15 @@ a:hover {
   text-decoration:dotted;
 }
 
+/** ajuste de tela para cards sobre */
+
 @media only screen and (max-width:480px) {
   .card:last-of-type{
     margin-top: 100px;
   }
 }
 
-
-
-
-
-
+/** estilo para formulario*/
 
 footer
 {
