@@ -319,6 +319,7 @@ border-radius: 4px;
   align-items: center;
   justify-content: space-between;
   position: relative;
+  margin-top: 100px;
 }
 
 .container-redes-sociais img {
@@ -338,9 +339,8 @@ border-radius: 4px;
   right: 0px;
 }
 
-.container-redes-sociais img {
-  width: 30px;
-  margin-right: 5px;
+.rodape-img {
+  display: none;
 }
 
 /* Estilos para links*/
